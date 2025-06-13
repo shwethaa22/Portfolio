@@ -1,0 +1,131 @@
+.nav-link{
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+   letter-spacing: 0.05em;
+}
+
+.collapse:not(.show) {
+  display: none;
+}
+
+
+.hero-img {
+  width: 80%;
+  max-width: 350px;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+}
+
+.donut {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.resume-btn {
+  background-color: #2a2a2a;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.resume-btn:hover {
+  background-color: #1f1f1f;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+}
+
+.wKSaYa button {
+  background-color: #E8A0BF;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hS1yv1 {
+  border-left: 1px solid #ccc;
+  height: 24px;
+  align-self: center;
+}
+
+.icon-button img {
+  transition: transform 0.2s ease;
+}
+
+.icon-button:hover img {
+  transform: scale(1.1);
+}
+
+.iphone-frame-wrapper {
+    display: block;
+
+  position: relative;
+  width: 400px;
+  max-width: 100%;
+  height: 800px;
+  margin: 40px auto;
+  background: url('./assets/33632332_phone_14_01.jpg') no-repeat center;
+  background-size: contain;
+  display: none;
+}
+
+/* Adjusted screen area to match new image */
+.iphone-screen {
+  position: absolute;
+  top: 90px;      /* Adjust based on phone image’s screen area */
+  left: 45px;
+  width: 310px;
+  height: 620px;
+  overflow-y: auto;
+  background-color: white;
+  border-radius: 30px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.iphone-inner-content {
+  width: 100%;
+  padding: 20px 10px;
+  font-size: 0.9rem;
+  transform: scale(0.95);
+  transform-origin: top center;
+}
+
+.iphone-inner-content .hero-img {
+  width: 100% !important;
+  max-width: 250px;
+  margin: 0 auto;
+  display: block;
+}
+
+.iphone-inner-content h1,
+.iphone-inner-content p,
+.iphone-inner-content a,
+.iphone-inner-content .btn {
+  font-size: 90%;
+  text-align: center;
+}
+
+.iphone-inner-content .container {
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+}
+
+
+/* View toggle hidden on mobile */
+@media (max-width: 768px) {
+  .view-toggle {
+    display: none !important;
+  }
+}
