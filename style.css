@@ -4,6 +4,10 @@
   font-style: normal;
    letter-spacing: 0.05em;
 }
+.collapse:not(.show) {
+  display: none;
+}
+
 
 .hero-img {
   width: 80%;
